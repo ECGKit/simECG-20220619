@@ -1,0 +1,24 @@
+Source: simecg
+Section: science
+Priority: optional
+Maintainer: Antonio Cardoso Martins <digiplan.pt@gmail.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev
+Standards-Version: 3.9.6
+Homepage: http://simecg.sourceforge.net/
+Vcs-Browser: http://sourceforge.net/p/simecg/code/HEAD/tree/
+
+Package: simecg
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: The simECG software was developed for acting as an ECG simulator,
+ for both training and assessment purposes.
+ It has the ability to display several pre-defined rhythms for training purposes,
+ such as rhythm and conduction disturbances. Additionally, a number of settings
+ can be altered in order to create different training experiences for different
+ levels of user proficiency. With the release of this version, in Open Source
+ format, the authors putin practical application their ideal that education (and
+ training, in this case) should not be a commercial tool accessible to some but
+ rather a free collaborative tool available for those who seek knowledge.This
+ project will always be unfinished, and for that reason we count with your
+ comments and feedback to improve it. Please write you feedback by mail or place
+ in the forum.

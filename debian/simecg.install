@@ -1,0 +1,4 @@
+simecg usr/bin
+system/simecg.png usr/share/icons
+system/simecg.desktop usr/share/applications
+
